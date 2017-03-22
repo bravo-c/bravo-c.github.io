@@ -1,2 +1,4 @@
 # bravo-c.github.io
-# Will become my personal website, in due time...
+# A work in progress~
+Making great strides towards 
+     a work of art
