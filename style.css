@@ -1,3 +1,6 @@
+@import url("http://fonts.googleapis.com/css?family=Tangerine");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet");
+
 /* default paragraph style */
 p {
 	line-height: 1em;
@@ -29,12 +32,13 @@ a {
 
 /* handles hover and active events for the links */
 a:hover, a:active {
-  text-decoration: underline;
+  text-decoration: none;
+  color: white;
 }
 
 /* default body style */
 body{
-    font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #eee;
+    font-family: Josefin-Slab, serif; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #A9A9A9;
 }
 
 #page {
@@ -44,7 +48,7 @@ body{
 #logo{
 	width: 35%;
 	margin-top: 5px;
-	font-family: georgia;
+	font-family: Tangerine, serif;
 	display: inline-block;
 }
 
