@@ -5,7 +5,7 @@ p {
 
 /* default headings style */
 h1, h2, h3, h4{
-    color: orange;
+    color: blue;
 	font-weight: normal;
 	line-height: 1.1em;
 	margin: 0 0 .5em 0;
@@ -64,8 +64,8 @@ nav{
 
 #nav ul li a {
   padding: 20px;
-	background: orange;
-	color: white;
+	background: red;
+	color: black;
 }
 
 #nav ul li a:hover{
