@@ -22,6 +22,7 @@ h1 {
 /* specifies font-size in ems */
 h2 { 
   font-size: 1.5em; 
+  text-align: center;
 }
 
 /* deals with link elements... colors them black with no decoration */
@@ -49,6 +50,7 @@ body{
 	width: 35%;
 	margin-top: 5px;
 	font-family: Tangerine, serif;
+	font-size: 36px;
 	display: inline-block;
 }
 
