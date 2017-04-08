@@ -1,4 +1,5 @@
 // messing about with jQuery
+// ... it's a good time!
 
 function main () {
   $('p').hide();
@@ -6,10 +7,3 @@ function main () {
 }
 
 $(document).ready(main);
-
-/* function main() {
-	$('.skillset').hide();
-  $('.skillset').fadeIn(1000);
-}
-
-$(document).ready(main); */
