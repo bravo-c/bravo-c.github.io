@@ -7,4 +7,4 @@ function main () {
   $p.fadeIn(1000);
 }
 
-$(document).ready(main);
+$(document).ready(jquery);
