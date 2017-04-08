@@ -1,10 +1,15 @@
 // messing about with jQuery
 
 function main () {
-  var $p = $(p);
-  
-  $p.hide();
-  $p.fadeIn(1000);
+  $(p).hide();
+  $(p).fadeIn(1000);
 }
 
-$(document).ready(jquery);
+$(document).ready(main);
+
+/* function main() {
+	$('.skillset').hide();
+  $('.skillset').fadeIn(1000);
+}
+
+$(document).ready(main); */
