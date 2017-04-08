@@ -1,8 +1,8 @@
 // messing about with jQuery
 
 function main () {
-  $(p).hide();
-  $(p).fadeIn(1000);
+  $('p').hide();
+  $('p').fadeIn(1000);
 }
 
 $(document).ready(main);
