@@ -1,7 +1,14 @@
 // The main function is now a self-invoking document ready function
 $(function() {
-  document.title = "Christopher Bravo" // overwriting title so it just says my name and not some silly title, hopefully
+  // let's just make a quick edit to my silly title here, shall we?
+  document.title = "Christopher Bravo" 
+  
+  // some playful jquery shenanigans
   $('p').hide();
   $('p').fadeIn(1000);
-  $('a.logoLink').value = "Christopher Bravo"
+  
+  // should hopefully modify the homepage link and make it neater
+  $('a.logoLink').val(function() {
+    return "Christopher Bravo";
+  });
 }); // end of "main" / document ready function
