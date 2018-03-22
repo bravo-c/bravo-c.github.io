@@ -11,4 +11,7 @@ $(function() {
   $('a.logoLink').val(function() {
     return "Christopher Bravo";
   });
+  
+  // maybe this works better
+  document.getElementById("logoLink").value = "Christopher Bravo";
 }); // end of "main" / document ready function
