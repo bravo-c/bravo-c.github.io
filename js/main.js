@@ -7,11 +7,6 @@ $(function() {
   $('p').hide();
   $('p').fadeIn(1000);
   
-  // should hopefully modify the homepage link and make it neater
-  $('a.logoLink').val(function() {
-    return "Christopher Bravo";
-  });
-  
   // maybe this works better
-  document.getElementById("logoLink").value = "Christopher Bravo";
+  document.getElementById("logoLink").innerHTML = "Christopher Bravo";
 }); // end of "main" / document ready function
