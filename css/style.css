@@ -125,3 +125,11 @@ nav{
 .active {
     background-color: #4CAF50; /* Add an active/current color */
 }
+
+.cl_logo {
+	float: left;
+}
+
+.cl_nav {
+	float: right;
+}
