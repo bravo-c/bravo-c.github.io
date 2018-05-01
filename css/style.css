@@ -128,8 +128,12 @@ nav{
 
 .cl_logo {
 	float: left;
+	width: 315px;
+	height: 100px;
 }
 
 .cl_nav {
 	float: right;
+	width: 315px;
+	height: 100px;
 }
