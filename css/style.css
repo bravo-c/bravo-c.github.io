@@ -8,7 +8,7 @@ p {
 
 /* default headings style */
 h1, h2, h3, h4{
-    color: blue;
+	color: #85144b;
 	font-weight: normal;
 	line-height: 1em;
 }
@@ -32,24 +32,24 @@ a {
 
 /* handles hover and active events for the links */
 a:hover, a:active {
-  text-decoration: none;
-  color: white;
+	text-decoration: none;
+	color: #06c;
 }
 
 /* default body style */
-body{
+body {
     font-family: Josefin-Slab, serif; font-size: 18px; line-height: 1.2em; width: 100%; margin: 0; background: #A9A9A9;
 }
 
-#logo{
-	width: 35%;
+#logo {
+	width: 35vw;
 	font-family: Tangerine, serif;
 	font-size: 24px;
 	display: inline-block;
 }
 
-nav{
-	width: 60%;
+nav {
+	width: 60vw;
 	display: inline-block;
 	text-align: right;
 	float: right;
@@ -58,18 +58,18 @@ nav{
 #nav ul{}
 
 #nav ul li {
-			display: inline-block;
-			height: 60px;
+	display: inline-block;
+	height: 60px;
 }
 
 #nav ul li a {
-  padding: 20px;
+	padding: 20px;
 	background: red;
 	color: black;
 }
 
 #nav ul li a:hover{
-  background-color: #ffb424;
+  	background-color: #ffb424;
 	box-shadow: 0px 1px 1px #666;
 }
 
@@ -88,10 +88,10 @@ nav{
 }
 
 #footer p {
-		text-align: right;
-		text-transform: uppercase;
-		font-size: 80%;
-		color: grey;
+	text-align: right;
+	text-transform: uppercase;
+	font-size: 80%;
+	color: grey;
 }
 
 #content, ul li a { box-shadow: 0px 1px 1px #999; }
@@ -105,7 +105,7 @@ nav{
 .icon-bar a {
     float: left; /* Float links side by side */
     text-align: center; /* Center-align text */
-    width: 20%; /* Equal width (5 icons with 20% width each = 100%)
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
     padding: 12px 0; /* Some top and bottom padding */
     transition: all 0.3s ease; /* Add transition for hover effects */
     color: white; /* White text color */
