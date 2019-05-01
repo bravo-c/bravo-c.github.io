@@ -1,4 +1,4 @@
-import $ from "jquery";
+var $ = require('jquery');
 
 function calcBravoAgeYears() {
   let birthdate = new Date();
