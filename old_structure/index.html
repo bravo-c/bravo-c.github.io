@@ -1,24 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-
 <!-- your webpage info goes here -->
-
     <title></title> <!-- the title is input by the javascript file anyway -->
 	
 	<meta name="author" content="Christopher Bravo" />
 	<meta name="description" content="Christopher Bravo's personal website" />
 
-	<link rel="icon" href="/favicon.png" type="image/png">
-
 <!-- you should always add your stylesheet (css) in the head tag so that it starts loading before the page html is being displayed -->	
 	<link rel="stylesheet" href="css/style.css" type="text/css" />
-	
+	<script src='js/main.js'></script>
 </head>
 <body>
-
 <!-- webpage content goes here in the body -->
-
 	<div id="page" class="cl_page">
 		<div id="logo" class="cl_logo">
 			<h1><a href="/" id="logoLink">Christopher Bravo</a></h1>
@@ -33,44 +27,11 @@
 		</div>
 		<div id="content" class="cl_content">
 			<h2>HOME</h2>
-			<!-- To update this to automatically generate based on my birthday -->
 			<p>
-				Hi! My name is Christopher Bravo and I am <span id="age">nineteen</span> years old. 
+				Hi! My name is Christopher Bravo and I am <span id="age">twenty</span> years old. 
 				I graduated from New Paltz High School when I was seventeen, and now I am 
 				working towards my Bachelor's of Science in Computer Science at Northeastern University.
-				
 			</p>
-			<p>
-				Also, I wanted to include a download link to a game I made, the game is only executable on 
-				Unix systems at the moment. Sorry! <a href=thrive-v2 download>Download the game here.</a> 
-			</p>
-			<p>
-				<strong>To get it to run, you'll have to complete the following:</strong>
-			</p>
-			<ol>
-				<li> Download the game from the link above </li>
-				<li> Open the terminal or equivalent. </li>
-				<li> Run the command &quot;chmod +x &lt;PATH_NAME&gt;&quot; to make the file an executable.
-					&lt;PATH_NAME&gt; should be replaced by the path to your file - this will be something
-						like &quot;/Users/Jess/Downloads/thrive-v2&quot;</li>
-				<li> Now you should be able to double-click the game and run it. If you have any trouble 
-					getting the game to run, just let me know! </li>
-			</ol>
-			<p>
-				A little about this game - it's called 'Thrive.' I wrote it in a student language of Racket 
-				in the summer of my freshman year at Northeastern because I felt like learning a whole new style of
-				programming only to forget it all would be a huge waste.
-			<p>
-			<p>
-				Also, it kind of felt like a way to express a lot of what I was going through at the time; it's really
-				quite simple in a lot of its implementation, but people can become easily frustrated when playing it
-				since I provided no instuctions, menu, or way to restart the game besides reloading from the executable file.
-				I could hardly call this a finished game; it is far more of a proof of concept or perhaps even a thought experiment.
-			</p>
-			<p>
-				In any case, I hope whoever ends up playing it enjoys it greatly! Cheers :)
-			</p>
-			<p>===========================================================================================================================</p>
 			<!-- This image should eventually become a carousel, it would be preeeeetty cool. -->
 			<img src="/images/christopher-bravo.jpg" height="250" width="200">
 			<p style="font-size: 12px;">taken at Facebook's campus - it's me :)</p>
@@ -88,7 +49,5 @@
 			</p>
 		</div>
 	</div>
-	<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
-	<script src='js/main.js'></script>
 </body>
 </html>
