@@ -17,4 +17,12 @@ $(function() {
   document.title = "Christopher Bravo" 
   document.getElementById("logoLink").innerHTML = "Christopher Bravo";
   document.getElementById("age").innerHTML = bravoYears;
+
+  document.getElementById('nav').innerHTML = 
+    '<ul>' + 
+    '<li><a ref="/old_structure/index.html">Home</a></li>' +
+    '<li><a href="/old_structure/html/about.html">About</a></li>' +
+    '<li><a href="/old_structure/html/contact.html">Contact</a></li>' + 
+    '<li><a href="/old_structure/html/extra.html">MazeFire Samples</a></li>' +
+    '</ul>';
 }); 
