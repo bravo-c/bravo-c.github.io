@@ -5,7 +5,9 @@ function calcBravoAgeYears() {
   birthdate.setFullYear(1999, 0, 29);
   birthdate.setUTCHours(2, 0, 0, 0);
   
-  if (today.getMonth() == birthdate.getMonth() && today.getDate() < birthdate.getDate()) return today.getYear() - birthdate.getYear() - 1;
+  if (today.getMonth() == birthdate.getMonth() && today.getDate() < birthdate.getDate()) {
+      return today.getYear() - birthdate.getYear() - 1;
+  }
   return today.getYear() - birthdate.getYear();
 }
 
