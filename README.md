@@ -1,5 +1,5 @@
-# bravo-c.github.io
-# A work in progress~
-Making great strides towards 
-     a work of art - and working on command line in Git!!
+# Christopher Bravo
 
+## WIP
+
+My website is a sideboarded project of mine - for now it displays some of my esports achievement and signifies a small piece of my experience with web work.
